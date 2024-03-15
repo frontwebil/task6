@@ -9,7 +9,7 @@ let mgTop = 11;
 
 function goRight() {
   if (mgLeft < 320) {
-    mgLeft = mgLeft + 34.8;
+    mgLeft = mgLeft + 35.3;
     point.style.marginLeft = mgLeft + "px";
   } else {
     alert("Далі ніяк(");
@@ -17,7 +17,7 @@ function goRight() {
 }
 function goLeft() {
   if (mgLeft > 15) {
-    mgLeft = mgLeft - 34.8;
+    mgLeft = mgLeft - 35.3;
     point.style.marginLeft = mgLeft + "px";
   } else {
     alert("Далі ніяк(");
